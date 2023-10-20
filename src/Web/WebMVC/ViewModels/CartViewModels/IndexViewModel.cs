@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.WebMVC.ViewModels.CartViewModels;
+﻿namespace Microsoft.MPGC.WebMVC.ViewModels.CartViewModels;
 
 public class CartComponentViewModel
 {

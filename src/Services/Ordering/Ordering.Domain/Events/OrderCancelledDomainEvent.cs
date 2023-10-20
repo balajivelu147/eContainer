@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.Domain.Events;
+﻿namespace Microsoft.MPGC.Services.Ordering.Domain.Events;
 
 public class OrderCancelledDomainEvent : INotification
 {

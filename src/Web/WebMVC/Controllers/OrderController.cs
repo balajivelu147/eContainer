@@ -1,6 +1,6 @@
-namespace Microsoft.eShopOnContainers.WebMVC.Controllers;
+namespace Microsoft.MPGC.WebMVC.Controllers;
 
-using Microsoft.eShopOnContainers.WebMVC.ViewModels;
+using Microsoft.MPGC.WebMVC.ViewModels;
 
 [Authorize]
 public class OrderController : Controller

@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.API.Infrastructure.IntegrationEventMigrations
+﻿namespace Microsoft.MPGC.Services.Ordering.API.Infrastructure.IntegrationEventMigrations
 {
     public class IntegrationEventLogContextDesignTimeFactory : IDesignTimeDbContextFactory<IntegrationEventLogContext>
     {

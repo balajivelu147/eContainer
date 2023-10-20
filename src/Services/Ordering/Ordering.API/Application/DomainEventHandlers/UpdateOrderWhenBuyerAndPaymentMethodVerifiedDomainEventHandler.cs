@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.API.Application.DomainEventHandlers;
+﻿namespace Microsoft.MPGC.Services.Ordering.API.Application.DomainEventHandlers;
 
 public class UpdateOrderWhenBuyerAndPaymentMethodVerifiedDomainEventHandler : INotificationHandler<BuyerAndPaymentMethodVerifiedDomainEvent>
 {

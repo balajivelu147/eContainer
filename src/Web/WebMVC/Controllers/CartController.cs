@@ -1,4 +1,4 @@
-namespace Microsoft.eShopOnContainers.WebMVC.Controllers;
+namespace Microsoft.MPGC.WebMVC.Controllers;
 
 [Authorize]
 public class CartController : Controller

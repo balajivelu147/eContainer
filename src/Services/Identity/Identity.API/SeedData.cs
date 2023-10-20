@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Identity.API;
+﻿namespace Microsoft.MPGC.Services.Identity.API;
 
 public class SeedData
 {

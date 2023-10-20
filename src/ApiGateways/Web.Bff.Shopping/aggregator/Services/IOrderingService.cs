@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Services;
+﻿namespace Microsoft.MPGC.Web.Shopping.HttpAggregator.Services;
 
 public interface IOrderingService
 {

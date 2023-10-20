@@ -1,6 +1,6 @@
 ﻿namespace UnitTest.Basket.Application;
 
-using Microsoft.eShopOnContainers.Services.Basket.API.Model;
+using Microsoft.MPGC.Services.Basket.API.Model;
 
 public class BasketWebApiTest
 {

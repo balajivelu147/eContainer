@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Controllers;
+﻿namespace Microsoft.MPGC.Web.Shopping.HttpAggregator.Controllers;
 
 [Route("api/v1/[controller]")]
 [Authorize]

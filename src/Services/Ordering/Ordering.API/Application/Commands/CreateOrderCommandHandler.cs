@@ -1,6 +1,6 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.API.Application.Commands;
+﻿namespace Microsoft.MPGC.Services.Ordering.API.Application.Commands;
 
-using Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.OrderAggregate;
+using Microsoft.MPGC.Services.Ordering.Domain.AggregatesModel.OrderAggregate;
 
 // Regular CommandHandler
 public class CreateOrderCommandHandler

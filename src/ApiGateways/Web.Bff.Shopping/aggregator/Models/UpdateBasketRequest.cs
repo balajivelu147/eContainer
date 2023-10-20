@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Models;
+﻿namespace Microsoft.MPGC.Web.Shopping.HttpAggregator.Models;
 
 public class UpdateBasketRequest
 {

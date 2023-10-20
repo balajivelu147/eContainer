@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Catalog.API.Infrastructure.Exceptions;
+﻿namespace Microsoft.MPGC.Services.Catalog.API.Infrastructure.Exceptions;
 
 /// <summary>
 /// Exception type for app exceptions

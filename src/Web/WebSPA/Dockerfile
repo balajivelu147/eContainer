@@ -18,7 +18,7 @@ FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
 
 # Create this "restore-solution" section by running ./Create-DockerfileSolutionRestore.ps1, to optimize build cache reuse
-COPY "eShopOnContainers-ServicesAndWebApps.sln" "eShopOnContainers-ServicesAndWebApps.sln"
+COPY "MPGC.sln" "MPGC.sln"
 
 COPY "ApiGateways/Mobile.Bff.Shopping/aggregator/Mobile.Shopping.HttpAggregator.csproj" "ApiGateways/Mobile.Bff.Shopping/aggregator/Mobile.Shopping.HttpAggregator.csproj"
 COPY "ApiGateways/Web.Bff.Shopping/aggregator/Web.Shopping.HttpAggregator.csproj" "ApiGateways/Web.Bff.Shopping/aggregator/Web.Shopping.HttpAggregator.csproj"
@@ -56,7 +56,7 @@ COPY "docker-compose.dcproj" "docker-compose.dcproj"
 COPY "Directory.Packages.props" "Directory.Packages.props"
 COPY "NuGet.config" "NuGet.config"
 
-RUN dotnet restore "eShopOnContainers-ServicesAndWebApps.sln"
+RUN dotnet restore "MPGC.sln"
 
 COPY . .
 COPY --from=node-build /web/wwwroot /src/Web/WebSPA/wwwroot/

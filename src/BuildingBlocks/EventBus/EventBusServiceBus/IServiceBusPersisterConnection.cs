@@ -1,4 +1,4 @@
-namespace Microsoft.eShopOnContainers.BuildingBlocks.EventBusServiceBus;
+namespace Microsoft.MPGC.BuildingBlocks.EventBusServiceBus;
 
 public interface IServiceBusPersisterConnection : IAsyncDisposable
 {

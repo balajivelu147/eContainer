@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.API.Application.IntegrationEvents.EventHandling;
+﻿namespace Microsoft.MPGC.Services.Ordering.API.Application.IntegrationEvents.EventHandling;
 
 public class OrderPaymentSucceededIntegrationEventHandler :
     IIntegrationEventHandler<OrderPaymentSucceededIntegrationEvent>

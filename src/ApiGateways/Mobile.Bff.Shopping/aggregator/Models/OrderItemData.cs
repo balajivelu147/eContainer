@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Mobile.Shopping.HttpAggregator.Models;
+﻿namespace Microsoft.MPGC.Mobile.Shopping.HttpAggregator.Models;
 
 public class OrderItemData
 {

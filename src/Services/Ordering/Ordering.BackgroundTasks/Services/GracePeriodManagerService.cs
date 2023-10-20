@@ -1,6 +1,6 @@
 ﻿using System.Data.SqlClient;
 using Dapper;
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
+using Microsoft.MPGC.BuildingBlocks.EventBus.Abstractions;
 using Microsoft.Extensions.Options;
 using Ordering.BackgroundTasks.Events;
 

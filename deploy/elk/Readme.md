@@ -1,12 +1,12 @@
-This article contains a brief introduction to centralized structured logging with [Serilog](https://serilog.net/) and event viewing with [ELK](https://www.elastic.co/elk-stack) in eShopOnContainers. ELK is an acronym of ElasticSearch, LogStash and Kibana. This is one of the most used tools in the industry standards.
+This article contains a brief introduction to centralized structured logging with [Serilog](https://serilog.net/) and event viewing with [ELK](https://www.elastic.co/elk-stack) in MPGC. ELK is an acronym of ElasticSearch, LogStash and Kibana. This is one of the most used tools in the industry standards.
 
 ![](img/elk/kibana-working.png)
 
-## Wiring eshopOnContainers with ELK in Localhost
+## Wiring MPGC with ELK in Localhost
 
-eshopOnContainers is ready for work with ELK, you only need to setup the configuration parameter **LogstashUrl**, in **Serilog** Section, for achieve this, you can do it modifing this parameter in every appsettings.json of every service, or via Environment Variable **Serilog:LogstashUrl**.
+MPGC is ready for work with ELK, you only need to setup the configuration parameter **LogstashUrl**, in **Serilog** Section, for achieve this, you can do it modifing this parameter in every appsettings.json of every service, or via Environment Variable **Serilog:LogstashUrl**.
 
-There is another option, a zero-configuration environment for testing the integration launching via ```docker-compose``` command, on the root directory of eshopOnContainers:
+There is another option, a zero-configuration environment for testing the integration launching via ```docker-compose``` command, on the root directory of MPGC:
 
 ```sh
 docker-compose -f docker-compose.yml -f docker-compose.override.yml -f docker-compose.elk.yml build

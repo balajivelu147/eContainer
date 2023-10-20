@@ -1,4 +1,4 @@
-namespace Microsoft.eShopOnContainers.Services.Ordering.SignalrHub.IntegrationEvents;
+namespace Microsoft.MPGC.Services.Ordering.SignalrHub.IntegrationEvents;
 
 public record OrderStatusChangedToAwaitingValidationIntegrationEvent : IntegrationEvent
 {

@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Catalog.API.Infrastructure;
+﻿namespace Microsoft.MPGC.Services.Catalog.API.Infrastructure;
 
 public class CatalogContextSeed
 {

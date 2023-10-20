@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.API.Application.Behaviors;
+﻿namespace Microsoft.MPGC.Services.Ordering.API.Application.Behaviors;
 
 using Microsoft.Extensions.Logging;
 

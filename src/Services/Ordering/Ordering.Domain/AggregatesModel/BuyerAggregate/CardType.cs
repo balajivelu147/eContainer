@@ -1,6 +1,6 @@
-﻿using Microsoft.eShopOnContainers.Services.Ordering.Domain.SeedWork;
+﻿using Microsoft.MPGC.Services.Ordering.Domain.SeedWork;
 
-namespace Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.BuyerAggregate;
+namespace Microsoft.MPGC.Services.Ordering.Domain.AggregatesModel.BuyerAggregate;
 
 /// <remarks> 
 /// Card type class should be marked as abstract with protected constructor to encapsulate known enum types

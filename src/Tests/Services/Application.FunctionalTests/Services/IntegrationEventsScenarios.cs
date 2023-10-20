@@ -2,9 +2,9 @@
 
 using Basket.FunctionalTests.Base;
 using Catalog.FunctionalTests;
-using Microsoft.eShopOnContainers.Services.Basket.API.Model;
-using Microsoft.eShopOnContainers.Services.Catalog.API.Model;
-using Microsoft.eShopOnContainers.Services.Catalog.API.ViewModel;
+using Microsoft.MPGC.Services.Basket.API.Model;
+using Microsoft.MPGC.Services.Catalog.API.Model;
+using Microsoft.MPGC.Services.Catalog.API.ViewModel;
 
 public class IntegrationEventsScenarios
 {

@@ -1,4 +1,4 @@
-# How to contribute to eShopOnContainers
+# How to contribute to MPGC
 
 This repo is a reference and learning resource and everyone is invited to contribute, however not all PRs will be accepted into the main branch (**`dev`**).
 
@@ -14,7 +14,7 @@ However, there's only one **REALLY** important rule: **use spaces for indenting*
 
 ## Development Process
 
-In order to help manage community contributions and avoid conflicts, there's a [Development project](https://github.com/dotnet-architecture/eShopOnContainers/projects/3) in this repo, to track assignments to any significant development effort.
+In order to help manage community contributions and avoid conflicts, there's a [Development project](https://github.com/dotnet-architecture/MPGC/projects/3) in this repo, to track assignments to any significant development effort.
 
 Great but... **what's "significant"**? 
 
@@ -54,7 +54,7 @@ The main branches are **`dev`** and **`master`**:
 - Any other branch is considered temporary and could be deleted at any time. Do not submit any PR to them!
 
 ## DISCLAIMER - This is not a PRODUCTION-READY TEMPLATE for microservices
-eShopOnContainers is a reference application to **showcase architectural patterns** for developing microservices applications on .NET 5. **IT IS NOT A PRODUCTION-READY TEMPLATE** to start real-world application. In fact, the application is in a **permanent beta state**, as it’s also used to test new potentially interesting technologies as they show up.
+MPGC is a reference application to **showcase architectural patterns** for developing microservices applications on .NET 5. **IT IS NOT A PRODUCTION-READY TEMPLATE** to start real-world application. In fact, the application is in a **permanent beta state**, as it’s also used to test new potentially interesting technologies as they show up.
 
 Since this is a learning resource, some design decisions have favored simplicity to convey a pattern, over production-grade robustness.
 

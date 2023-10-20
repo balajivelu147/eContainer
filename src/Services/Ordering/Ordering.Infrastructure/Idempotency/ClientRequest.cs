@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.Infrastructure.Idempotency;
+﻿namespace Microsoft.MPGC.Services.Ordering.Infrastructure.Idempotency;
 
 public class ClientRequest
 {

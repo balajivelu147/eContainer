@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <AssemblyName>Mobile.Shopping.HttpAggregator</AssemblyName>
-    <RootNamespace>Microsoft.eShopOnContainers.Mobile.Shopping.HttpAggregator</RootNamespace>
+    <RootNamespace>Microsoft.MPGC.Mobile.Shopping.HttpAggregator</RootNamespace>
     <DockerComposeProjectPath>..\..\..\docker-compose.dcproj</DockerComposeProjectPath>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>

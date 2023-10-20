@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.BuyerAggregate;
+﻿namespace Microsoft.MPGC.Services.Ordering.Domain.AggregatesModel.BuyerAggregate;
 
 public class Buyer
     : Entity, IAggregateRoot

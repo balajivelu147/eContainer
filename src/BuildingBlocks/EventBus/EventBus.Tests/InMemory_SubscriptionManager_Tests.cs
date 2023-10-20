@@ -1,4 +1,4 @@
-using Microsoft.eShopOnContainers.BuildingBlocks.EventBus;
+using Microsoft.MPGC.BuildingBlocks.EventBus;
 using Xunit;
 
 namespace EventBus.Tests

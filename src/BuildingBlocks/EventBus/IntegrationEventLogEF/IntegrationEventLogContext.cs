@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.BuildingBlocks.IntegrationEventLogEF;
+﻿namespace Microsoft.MPGC.BuildingBlocks.IntegrationEventLogEF;
 
 public class IntegrationEventLogContext : DbContext
 {

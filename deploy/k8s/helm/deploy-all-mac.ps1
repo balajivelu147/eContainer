@@ -117,7 +117,7 @@ if (-not [string]::IsNullOrEmpty($registry)) {
     }
 }
 
-Write-Host "Begin eShopOnContainers installation using Helm" -ForegroundColor Green
+Write-Host "Begin MPGC installation using Helm" -ForegroundColor Green
 
 $infras = ("sql-data", "nosql-data", "rabbitmq", "keystore-data", "basket-data")
 $charts = ("eshop-common", "basket-api","catalog-api", "identity-api", "mobileshoppingagg","ordering-api","ordering-backgroundtasks","ordering-signalrhub", "payment-api", "webmvc", "webshoppingagg", "webspa", "webstatus", "webhooks-api", "webhooks-web")
@@ -130,7 +130,7 @@ if ($deployInfrastructure) {
     }
 }
 else {
-    Write-Host "eShopOnContainers infrastructure (bbdd, redis, ...) charts aren't installed (-deployCharts is false)" -ForegroundColor Yellow
+    Write-Host "MPGC infrastructure (bbdd, redis, ...) charts aren't installed (-deployCharts is false)" -ForegroundColor Yellow
 }
 
 if ($deployCharts) {
@@ -150,7 +150,7 @@ if ($deployCharts) {
     }
 }
 else {
-    Write-Host "eShopOnContainers non-infrastructure charts aren't installed (-deployCharts is false)" -ForegroundColor Yellow
+    Write-Host "MPGC non-infrastructure charts aren't installed (-deployCharts is false)" -ForegroundColor Yellow
 }
 
 Write-Host "helm charts installed." -ForegroundColor Green

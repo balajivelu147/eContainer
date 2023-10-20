@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.WebMVC.Controllers;
+﻿namespace Microsoft.MPGC.WebMVC.Controllers;
 
 public class CatalogController : Controller
 {

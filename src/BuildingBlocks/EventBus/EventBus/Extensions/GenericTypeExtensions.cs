@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Extensions;
+﻿namespace Microsoft.MPGC.BuildingBlocks.EventBus.Extensions;
 
 public static class GenericTypeExtensions
 {

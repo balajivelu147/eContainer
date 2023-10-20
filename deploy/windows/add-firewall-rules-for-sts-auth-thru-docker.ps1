@@ -1,7 +1,7 @@
 param(
-  [string]$Name = "eShopOnContainers",
-  [string]$InboundDisplayName = "eShopOnContainers-Inbound",
-  [string]$OutboundDisplayName = "eShopOnContainers-Outbound",
+  [string]$Name = "MPGC",
+  [string]$InboundDisplayName = "MPGC-Inbound",
+  [string]$OutboundDisplayName = "MPGC-Outbound",
   [switch]$Elevated
   )
 

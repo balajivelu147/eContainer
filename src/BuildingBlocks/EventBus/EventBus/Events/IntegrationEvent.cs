@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Events;
+﻿namespace Microsoft.MPGC.BuildingBlocks.EventBus.Events;
 
 public record IntegrationEvent
 {

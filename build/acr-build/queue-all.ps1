@@ -1,7 +1,7 @@
 Param(
     [parameter(Mandatory=$false)][string]$acrName,
     [parameter(Mandatory=$false)][string]$gitUser,
-    [parameter(Mandatory=$false)][string]$repoName="eShopOnContainers",
+    [parameter(Mandatory=$false)][string]$repoName="MPGC",
     [parameter(Mandatory=$false)][string]$gitBranch="dev",
     [parameter(Mandatory=$true)][string]$patToken
 )

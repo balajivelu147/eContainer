@@ -1,4 +1,4 @@
-# This helm values file defines all infrastructure used by eShopOnContainers.
+# This helm values file defines all infrastructure used by MPGC.
 # It is used on all charts, so ** MUST BE INCLUDED ** on every deployment
 
 inf:

@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.Infrastructure.Repositories;
+﻿namespace Microsoft.MPGC.Services.Ordering.Infrastructure.Repositories;
 
 public class OrderRepository
     : IOrderRepository

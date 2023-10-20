@@ -1,6 +1,6 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.API.Infrastructure;
+﻿namespace Microsoft.MPGC.Services.Ordering.API.Infrastructure;
 
-using Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.BuyerAggregate;
+using Microsoft.MPGC.Services.Ordering.Domain.AggregatesModel.BuyerAggregate;
 
 public class OrderingContextSeed
 {

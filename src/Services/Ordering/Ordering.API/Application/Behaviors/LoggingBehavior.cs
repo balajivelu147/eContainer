@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.API.Application.Behaviors;
+﻿namespace Microsoft.MPGC.Services.Ordering.API.Application.Behaviors;
 public class LoggingBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest : IRequest<TResponse>
 {
     private readonly ILogger<LoggingBehavior<TRequest, TResponse>> _logger;

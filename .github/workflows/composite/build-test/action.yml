@@ -30,7 +30,7 @@ runs:
     shell: bash
     run: |
       cd src
-      dotnet restore "eShopOnContainers-ServicesAndWebApps.sln"
+      dotnet restore "MPGC.sln"
       cd ${{ inputs.project_path }}
       dotnet build --no-restore
       cd -

@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Mobile.Shopping.HttpAggregator.Services;
+﻿namespace Microsoft.MPGC.Mobile.Shopping.HttpAggregator.Services;
 
 public class OrderApiClient : IOrderApiClient
 {

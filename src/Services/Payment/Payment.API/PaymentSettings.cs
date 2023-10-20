@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Payment.API;
+﻿namespace Microsoft.MPGC.Payment.API;
 
 public class PaymentSettings
 {

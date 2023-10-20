@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.WebMVC;
+﻿namespace Microsoft.MPGC.WebMVC;
 
 public class AppSettings
 {

@@ -1,5 +1,5 @@
-﻿namespace Microsoft.eShopOnContainers.WebMVC.Services;
-using Microsoft.eShopOnContainers.WebMVC.ViewModels;
+﻿namespace Microsoft.MPGC.WebMVC.Services;
+using Microsoft.MPGC.WebMVC.ViewModels;
 
 public interface IOrderingService
 {

@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.BuildingBlocks.EventBusRabbitMQ;
+﻿namespace Microsoft.MPGC.BuildingBlocks.EventBusRabbitMQ;
 using Microsoft.Extensions.DependencyInjection;
 
 public class EventBusRabbitMQ : IEventBus, IDisposable

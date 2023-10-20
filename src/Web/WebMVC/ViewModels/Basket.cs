@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.WebMVC.ViewModels;
+﻿namespace Microsoft.MPGC.WebMVC.ViewModels;
 
 public record Basket
 {

@@ -131,7 +131,7 @@ fi
 
 if [[ $build_solution ]]; then
   echo "#################### Building $app_name solution ####################"
-  dotnet publish -o obj/Docker/publish ../../eShopOnContainers-ServicesAndWebApps.sln
+  dotnet publish -o obj/Docker/publish ../../MPGC.sln
 fi
 
 export TAG=$image_tag

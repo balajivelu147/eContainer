@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.API.Application.Validations;
+﻿namespace Microsoft.MPGC.Services.Ordering.API.Application.Validations;
 
 public class ShipOrderCommandValidator : AbstractValidator<ShipOrderCommand>
 {

@@ -29,7 +29,7 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_URLS=http://0.0.0.0:80
-      - ConnectionString=${ESHOP_AZURE_CATALOG_DB:-Server=sqldata;Database=Microsoft.eShopOnContainers.Services.CatalogDb;User Id=sa;Password=Pass@word}
+      - ConnectionString=${ESHOP_AZURE_CATALOG_DB:-Server=sqldata;Database=Microsoft.MPGC.Services.CatalogDb;User Id=sa;Password=Pass@word}
       - PicBaseUrl=${ESHOP_AZURE_STORAGE_CATALOG:-http://localhost:5101/api/v1/catalog/items/[0]/pic/}   #Local: You need to open your local dev-machine firewall at range 5100-5110.  
       - EventBusConnection=${ESHOP_AZURE_SERVICE_BUS:-rabbitmq}
       - AzureStorageAccountName=${ESHOP_AZURE_STORAGE_CATALOG_NAME}
@@ -46,7 +46,7 @@ services:
       - ASPNETCORE_URLS=http://0.0.0.0:80
       - SpaClient=http://${ESHOP_PROD_EXTERNAL_DNS_NAME_OR_IP}:5104
       - XamarinCallback=http://${ESHOP_PROD_EXTERNAL_DNS_NAME_OR_IP}:5105/xamarincallback
-      - ConnectionStrings__DefaultConnection=${ESHOP_AZURE_IDENTITY_DB:-Server=sqldata;Database=Microsoft.eShopOnContainers.Services.IdentityDb;User Id=sa;Password=Pass@word}       
+      - ConnectionStrings__DefaultConnection=${ESHOP_AZURE_IDENTITY_DB:-Server=sqldata;Database=Microsoft.MPGC.Services.IdentityDb;User Id=sa;Password=Pass@word}       
       - MvcClient=http://${ESHOP_PROD_EXTERNAL_DNS_NAME_OR_IP}:5100              #Local: You need to open your local dev-machine firewall at range 5100-5110. 
       - BasketApiClient=http://${ESHOP_PROD_EXTERNAL_DNS_NAME_OR_IP}:5103
       - OrderingApiClient=http://${ESHOP_PROD_EXTERNAL_DNS_NAME_OR_IP}:5102      
@@ -58,7 +58,7 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_URLS=http://0.0.0.0:80
-      - ConnectionString=${ESHOP_AZURE_ORDERING_DB:-Server=sqldata;Database=Microsoft.eShopOnContainers.Services.OrderingDb;User Id=sa;Password=Pass@word}
+      - ConnectionString=${ESHOP_AZURE_ORDERING_DB:-Server=sqldata;Database=Microsoft.MPGC.Services.OrderingDb;User Id=sa;Password=Pass@word}
       - identityUrl=http://identity-api              #Local: You need to open your local dev-machine firewall at range 5100-5110.
       - IdentityUrlExternal=http://${ESHOP_PROD_EXTERNAL_DNS_NAME_OR_IP}:5105
       - EventBusConnection=${ESHOP_AZURE_SERVICE_BUS:-rabbitmq}
@@ -71,7 +71,7 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_URLS=http://0.0.0.0:80
-      - ConnectionString=${ESHOP_AZURE_ORDERING_DB:-Server=sqldata;Database=Microsoft.eShopOnContainers.Services.OrderingDb;User Id=sa;Password=Pass@word}
+      - ConnectionString=${ESHOP_AZURE_ORDERING_DB:-Server=sqldata;Database=Microsoft.MPGC.Services.OrderingDb;User Id=sa;Password=Pass@word}
       - EventBusConnection=${ESHOP_AZURE_SERVICE_BUS:-rabbitmq}
       - UseCustomizationData=True
       - AzureServiceBusEnabled=False

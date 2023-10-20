@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.Infrastructure.EntityConfigurations;
+﻿namespace Microsoft.MPGC.Services.Ordering.Infrastructure.EntityConfigurations;
 
 class OrderStatusEntityTypeConfiguration
     : IEntityTypeConfiguration<OrderStatus>

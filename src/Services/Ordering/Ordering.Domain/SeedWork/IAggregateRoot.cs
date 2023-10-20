@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.Domain.Seedwork;
+﻿namespace Microsoft.MPGC.Services.Ordering.Domain.Seedwork;
 
 public interface IAggregateRoot { }
 

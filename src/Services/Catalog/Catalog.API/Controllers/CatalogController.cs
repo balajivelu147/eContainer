@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Catalog.API.Controllers;
+﻿namespace Microsoft.MPGC.Services.Catalog.API.Controllers;
 
 [Route("api/v1/[controller]")]
 [ApiController]

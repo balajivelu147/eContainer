@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.WebMVC.ViewModels.Annotations;
+﻿namespace Microsoft.MPGC.WebMVC.ViewModels.Annotations;
 
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, AllowMultiple = true)]
 public class CardExpirationAttribute : ValidationAttribute

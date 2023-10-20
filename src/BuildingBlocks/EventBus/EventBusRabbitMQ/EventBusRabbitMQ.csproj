@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>Microsoft.eShopOnContainers.BuildingBlocks.EventBusRabbitMQ</RootNamespace>
+    <RootNamespace>Microsoft.MPGC.BuildingBlocks.EventBusRabbitMQ</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

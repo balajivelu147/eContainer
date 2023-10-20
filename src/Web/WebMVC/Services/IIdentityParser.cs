@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.WebMVC.Services;
+﻿namespace Microsoft.MPGC.WebMVC.Services;
 
 public interface IIdentityParser<T>
 {

@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.WebMVC.ViewComponents;
+﻿namespace Microsoft.MPGC.WebMVC.ViewComponents;
 
 public class CartList : ViewComponent
 {

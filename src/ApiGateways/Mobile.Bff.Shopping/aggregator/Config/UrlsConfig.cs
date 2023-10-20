@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Mobile.Shopping.HttpAggregator.Config;
+﻿namespace Microsoft.MPGC.Mobile.Shopping.HttpAggregator.Config;
 
 public class UrlsConfig
 {

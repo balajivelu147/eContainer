@@ -1,6 +1,6 @@
-﻿namespace Microsoft.eShopOnContainers.WebMVC.Services;
+﻿namespace Microsoft.MPGC.WebMVC.Services;
 
-using Microsoft.eShopOnContainers.WebMVC.ViewModels;
+using Microsoft.MPGC.WebMVC.ViewModels;
 
 public interface IBasketService
 {

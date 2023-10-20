@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "Microsoft.eShopOnContainers.WebMVC": {
+    "Microsoft.MPGC.WebMVC": {
       "commandName": "Project",
       "launchBrowser": true,
       "applicationUrl": "http://localhost:5331",

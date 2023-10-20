@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.SignalrHub;
+﻿namespace Microsoft.MPGC.Services.Ordering.SignalrHub;
 
 [Authorize]
 public class NotificationsHub : Hub

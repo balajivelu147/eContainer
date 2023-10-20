@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.WebMVC.ViewModels;
+﻿namespace Microsoft.MPGC.WebMVC.ViewModels;
 
 // Add profile data for application users by adding properties to the ApplicationUser class
 public class ApplicationUser : IdentityUser

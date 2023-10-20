@@ -1,6 +1,6 @@
 ﻿namespace UnitTest.Ordering.Application;
 
-using Microsoft.eShopOnContainers.Services.Ordering.API.Application.Queries;
+using Microsoft.MPGC.Services.Ordering.API.Application.Queries;
 
 public class OrdersWebApiTest
 {

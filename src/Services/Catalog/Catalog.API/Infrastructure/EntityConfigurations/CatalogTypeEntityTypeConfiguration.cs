@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Catalog.API.Infrastructure.EntityConfigurations;
+﻿namespace Microsoft.MPGC.Services.Catalog.API.Infrastructure.EntityConfigurations;
 
 class CatalogTypeEntityTypeConfiguration
     : IEntityTypeConfiguration<CatalogType>

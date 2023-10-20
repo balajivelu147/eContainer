@@ -7,8 +7,8 @@ global using System.Text;
 global using System.Text.Json;
 global using System.Threading.Tasks;
 global using Microsoft.AspNetCore.Http;
-global using Microsoft.eShopOnContainers.Services.Basket.API.Model;
-global using Microsoft.eShopOnContainers.WebMVC.ViewModels;
+global using Microsoft.MPGC.Services.Basket.API.Model;
+global using Microsoft.MPGC.WebMVC.ViewModels;
 global using WebMVC.Services.ModelDTOs;
 global using Xunit;
 

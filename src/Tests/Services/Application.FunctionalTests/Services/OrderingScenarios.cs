@@ -108,9 +108,9 @@ public class OrderingScenarios
     string BuildBasket()
     {
         var order = new CustomerBasket("9e3163b9-1ae6-4652-9dc6-7898ab7b7a00");
-        order.Items = new List<Microsoft.eShopOnContainers.Services.Basket.API.Model.BasketItem>()
+        order.Items = new List<Microsoft.MPGC.Services.Basket.API.Model.BasketItem>()
         {
-            new Microsoft.eShopOnContainers.Services.Basket.API.Model.BasketItem()
+            new Microsoft.MPGC.Services.Basket.API.Model.BasketItem()
             {
                 Id = "1",
                 ProductName = "ProductName",

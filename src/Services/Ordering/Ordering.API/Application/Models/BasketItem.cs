@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.API.Application.Models;
+﻿namespace Microsoft.MPGC.Services.Ordering.API.Application.Models;
 
 public class BasketItem
 {

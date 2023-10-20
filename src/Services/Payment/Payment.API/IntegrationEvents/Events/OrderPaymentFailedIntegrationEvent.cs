@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Payment.API.IntegrationEvents.Events;
+﻿namespace Microsoft.MPGC.Payment.API.IntegrationEvents.Events;
 
 public record OrderPaymentFailedIntegrationEvent : IntegrationEvent
 {

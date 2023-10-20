@@ -1,4 +1,4 @@
-# eShopOnContainers - GitHub Actions
+# MPGC - GitHub Actions
 
 To configure the github actions it is necessary to add the following secrets to the github repository:
 

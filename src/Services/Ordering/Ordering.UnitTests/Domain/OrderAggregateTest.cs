@@ -1,6 +1,6 @@
 ﻿namespace Ordering.UnitTests.Domain;
 
-using Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.OrderAggregate;
+using Microsoft.MPGC.Services.Ordering.Domain.AggregatesModel.OrderAggregate;
 public class OrderAggregateTest
 {
     public OrderAggregateTest()

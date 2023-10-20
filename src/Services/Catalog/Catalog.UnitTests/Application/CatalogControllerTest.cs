@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.eShopOnContainers.Services.Catalog.API;
-using Microsoft.eShopOnContainers.Services.Catalog.API.Controllers;
-using Microsoft.eShopOnContainers.Services.Catalog.API.Infrastructure;
-using Microsoft.eShopOnContainers.Services.Catalog.API.IntegrationEvents;
-using Microsoft.eShopOnContainers.Services.Catalog.API.Model;
-using Microsoft.eShopOnContainers.Services.Catalog.API.ViewModel;
+using Microsoft.MPGC.Services.Catalog.API;
+using Microsoft.MPGC.Services.Catalog.API.Controllers;
+using Microsoft.MPGC.Services.Catalog.API.Infrastructure;
+using Microsoft.MPGC.Services.Catalog.API.IntegrationEvents;
+using Microsoft.MPGC.Services.Catalog.API.Model;
+using Microsoft.MPGC.Services.Catalog.API.ViewModel;
 using Microsoft.Extensions.Options;
 using Moq;
 using Xunit;

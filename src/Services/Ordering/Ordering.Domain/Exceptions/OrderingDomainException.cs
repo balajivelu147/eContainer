@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Services.Ordering.Domain.Exceptions;
+﻿namespace Microsoft.MPGC.Services.Ordering.Domain.Exceptions;
 
 /// <summary>
 /// Exception type for domain exceptions

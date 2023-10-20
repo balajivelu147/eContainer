@@ -1,4 +1,4 @@
-namespace Microsoft.eShopOnContainers.Services.Ordering.API.Infrastructure.Factories
+namespace Microsoft.MPGC.Services.Ordering.API.Infrastructure.Factories
 {
     public class OrderingDbContextFactory : IDesignTimeDbContextFactory<OrderingContext>
     {

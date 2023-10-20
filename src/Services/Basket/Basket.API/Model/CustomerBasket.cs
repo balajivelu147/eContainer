@@ -1,4 +1,4 @@
-namespace Microsoft.eShopOnContainers.Services.Basket.API.Model;
+namespace Microsoft.MPGC.Services.Basket.API.Model;
 
 public class CustomerBasket
 {

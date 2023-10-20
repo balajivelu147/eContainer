@@ -1,6 +1,6 @@
-﻿using Microsoft.eShopOnContainers.Services.Ordering.Domain.SeedWork;
+﻿using Microsoft.MPGC.Services.Ordering.Domain.SeedWork;
 
-namespace Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.OrderAggregate;
+namespace Microsoft.MPGC.Services.Ordering.Domain.AggregatesModel.OrderAggregate;
 
 public class OrderStatus
     : Enumeration

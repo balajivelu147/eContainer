@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator.Infrastructure;
+﻿namespace Microsoft.MPGC.Web.Shopping.HttpAggregator.Infrastructure;
 
 public class GrpcExceptionInterceptor : Interceptor
 {

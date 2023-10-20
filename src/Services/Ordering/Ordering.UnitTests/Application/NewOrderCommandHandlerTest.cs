@@ -1,8 +1,8 @@
-﻿using Microsoft.eShopOnContainers.Services.Ordering.API.Application.IntegrationEvents;
+﻿using Microsoft.MPGC.Services.Ordering.API.Application.IntegrationEvents;
 
 namespace UnitTest.Ordering.Application;
 
-using Microsoft.eShopOnContainers.Services.Ordering.Domain.AggregatesModel.OrderAggregate;
+using Microsoft.MPGC.Services.Ordering.Domain.AggregatesModel.OrderAggregate;
 
 public class NewOrderRequestHandlerTest
 {

@@ -1,4 +1,4 @@
-﻿namespace Microsoft.eShopOnContainers.BuildingBlocks.EventBusRabbitMQ;
+﻿namespace Microsoft.MPGC.BuildingBlocks.EventBusRabbitMQ;
 
 public interface IRabbitMQPersistentConnection
     : IDisposable
